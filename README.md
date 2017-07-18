@@ -16,3 +16,7 @@ pip install -r requirements.txt
 Usage:       hb_download.py KEY [PATH]
              hb_download.py --key KEY [--path PATH]
 ```
+
+The optional `PATH` variable is the folder where all the books will be
+deposited once they have been downloaded. Books will only download if they pass
+the checksum.
